@@ -1,5 +1,13 @@
 <link href="path/to/config.yml" type="text/yaml" rel="cms-config-url">
+
 backend:
+commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
   name: git-gateway
   branch: main
 
