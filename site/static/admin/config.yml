@@ -1,13 +1,14 @@
 backend:
-    commit_messages:
+  name: git-gateway
+  branch: main
+  commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
     delete: Delete {{collection}} “{{slug}}”
     uploadMedia: Upload “{{path}}”
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
-  name: git-gateway
-  branch: main
+
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
